@@ -9,7 +9,6 @@ import {
   fetchProducts,
   ProductType,
 } from "../../services/products";
-import { defaultConfig } from "next/dist/server/config-shared";
 
 export const getStaticProps: GetStaticProps = async (context) => {
   const id = context.params?.id;
